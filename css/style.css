@@ -13,8 +13,26 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color on hover */
+
   li a:hover {
     background-color: #555;
     color: white;
+  }
+  h1{
+
+    color: rgb(32, 3, 138);
+  }
+
+  h2{
+
+    color: rgb(95, 208, 243);
+  }
+  h3{
+
+    color: rgb(95, 208, 243);
+  }
+
+  footer{
+
+    color: rgb(40, 2, 253);
   }
