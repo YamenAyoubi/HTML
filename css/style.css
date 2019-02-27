@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,7 +16,9 @@ ul {
 
   li a:hover {background-color: #555;color: white;}
 
-  h1{color: rgb(32, 3, 138);}
+  h1,h4{
+    color: rgb(32, 3, 138); 
+  margin: 0;}
 
   footer{color: rgb(40, 2, 253);}
 
