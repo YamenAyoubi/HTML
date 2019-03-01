@@ -1,5 +1,4 @@
-
-body{
+body {
 
   font-family: sans-serif;
   margin-left: auto;
@@ -8,35 +7,37 @@ body{
   background-color: silver;
 }
 
-.mainheader{
+.mainheader {
   width: 250px;
   border: 5px solid silver;
   padding: 5px;
   margin: 5px;
   margin-top: 50px;
   color: rgb(77, 43, 54);
+  font-size: 8px;
 }
 
 * img {
-width: 66%;
-border-radius: 10px;
-float: left;
-background-color: silver;
-opacity: 0.7;
-filter: alpha(opacity=50);
+  width: 66%;
+  border-radius: 10px;
+  float: left;
+  background-color: silver;
+  opacity: 0.7;
+
 }
 
 .clearfix {
   overflow: auto;
 }
+
 ul {
-  list-style-type:none;
+  list-style-type: none;
   margin: 5px;
   padding: 5px;
   overflow: hidden;
   background-color: silver;
   float: left;
-  width: 250;
+
 }
 
 li {
@@ -48,63 +49,67 @@ li a {
   color: rgb(54, 31, 31);
   text-align: center;
   padding: 14px 16px;
-  text-decoration:initial;
+  text-decoration: initial;
   background-color: silver;
 
 }
 
 li a:hover {
   background-color: silver;
-  
+
 }
 
 li a:active {
-  background-color:silver;
-  
+  background-color: silver;
+
 }
 
-.h2{
-font-size: 15px;
-width: 630px;
-border: 5px  silver;;
-padding: 5px;
-margin: 5px;
-float: left;
-text-align: center;
-color: rgb(187, 100, 100);
+.h2 {
+  font-size: 15px;
+  width: 630px;
+  border: 5px silver;
+  ;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  color: rgb(187, 100, 100);
 }
 
-.text1{
+.text1 {
   width: 30%;
-  border: 5px solid silver;;
+  border: 5px solid silver;
+  ;
   margin: 5px;
   padding: 5px;
   float: left;
   text-align: left;
-  text-decoration:initial;
-  width: 250;
+  text-decoration: initial;
   color: rgb(81, 81, 126);
 }
-.text2{
+
+.text2 {
   width: 30%;
-  border: 5px solid silver;;
+  border: 5px solid silver;
+  ;
   padding: 5px;
   margin: 5px;
   float: left;
-  text-align:left;
-  text-decoration:initial;
-  width: 250;
+  text-align: left;
+  text-decoration: initial;
   position: relative;
   color: rgb(81, 81, 126);
 }
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-.side{
+
+.side {
   width: 15%;
-  border: 5px  silver;
+  border: 5px silver;
   padding: 5px;
   float: right;
   margin-right: auto;
@@ -112,39 +117,44 @@ color: rgb(187, 100, 100);
 
 }
 
-.russia{
+.russia {
   widows: 5%;
-  border: 5px  silver;
+  border: 5px silver;
   padding: 5px;
   float: left;
-  position:relative;
-  color: rgb(81, 81, 126);;
-}
-.canada{
-  widows: 5%;
-  border: 5px  silver;
-  padding: 5px;
-  float: left;
-  position:relative;
-  color: rgb(81, 81, 126);;
-
-}
-.United{
-  widows: 5%;
-  border: 5px  silver;
-  padding: 5px;
-  float: left;
-  position:relative;
-  color: rgb(81, 81, 126);;
+  position: relative;
+  color: rgb(81, 81, 126);
+  ;
 }
 
-footer{
+.canada {
+  widows: 5%;
+  border: 5px silver;
+  padding: 5px;
+  float: left;
+  position: relative;
+  color: rgb(81, 81, 126);
+  ;
+
+}
+
+.United {
+  widows: 5%;
+  border: 5px silver;
+  padding: 5px;
+  float: left;
+  position: relative;
+  color: rgb(81, 81, 126);
+  ;
+}
+
+footer {
   margin-block-end: 10px;
   width: auto;
   height: 50px;
   margin-top: 750px;
   background-color: silver;
-  border: 2px  black;
+  border: 2px black;
   padding: 10px;
   font-size: 1.2em;
   color: royalblue;
