@@ -22,6 +22,8 @@ width: 66%;
 border-radius: 10px;
 float: left;
 background-color: silver;
+opacity: 0.7;
+filter: alpha(opacity=50);
 }
 
 .clearfix {
@@ -81,7 +83,7 @@ color: rgb(187, 100, 100);
   text-align: left;
   text-decoration:initial;
   width: 250;
-  color: rgb(77, 77, 158);
+  color: rgb(81, 81, 126);
 }
 .text2{
   width: 30%;
@@ -93,7 +95,7 @@ color: rgb(187, 100, 100);
   text-decoration:initial;
   width: 250;
   position: relative;
-  color: rgb(77, 77, 158);
+  color: rgb(81, 81, 126);
 }
 .clearfix::after {
   content: "";
@@ -116,7 +118,7 @@ color: rgb(187, 100, 100);
   padding: 5px;
   float: left;
   position:relative;
-  color: blueviolet;
+  color: rgb(81, 81, 126);;
 }
 .canada{
   widows: 5%;
@@ -124,7 +126,7 @@ color: rgb(187, 100, 100);
   padding: 5px;
   float: left;
   position:relative;
-  color: blueviolet;
+  color: rgb(81, 81, 126);;
 
 }
 .United{
@@ -133,7 +135,7 @@ color: rgb(187, 100, 100);
   padding: 5px;
   float: left;
   position:relative;
-  color: blueviolet;
+  color: rgb(81, 81, 126);;
 }
 
 footer{
