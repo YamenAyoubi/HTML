@@ -79,8 +79,7 @@ li a:active {
 .text1 {
   width: 30%;
   border: 5px solid silver;
-  ;
-  margin: 5px;
+  margin: 1px;
   padding: 5px;
   float: left;
   text-align: left;
@@ -91,8 +90,7 @@ li a:active {
 .text2 {
   width: 30%;
   border: 5px solid silver;
-  ;
-  padding: 5px;
+  padding: 1px;
   margin: 5px;
   float: left;
   text-align: left;
@@ -112,8 +110,9 @@ li a:active {
   border: 5px silver;
   padding: 5px;
   float: right;
-  margin-right: auto;
+margin: 1px;
   color: rgb(61, 49, 49);
+
 
 }
 
