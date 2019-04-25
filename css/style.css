@@ -14,7 +14,7 @@ body {
   margin: 5px;
   margin-top: 50px;
   color: rgb(77, 43, 54);
-  font-size: 8px;
+  font-size: 8px;  
 }
 
 * img {
@@ -23,6 +23,7 @@ body {
   float: left;
   background-color: silver;
   opacity: 0.7;
+  padding: -10px;
 
 }
 
@@ -68,14 +69,21 @@ li a:active {
   font-size: 15px;
   width: 630px;
   border: 5px silver;
-  ;
   padding: 5px;
   margin: 5px;
   float: left;
   text-align: center;
   color: rgb(187, 100, 100);
 }
+header h1{
+  text-align: center;
+}
 
+header ul {
+  text-align: center;
+  margin-left: 35%;
+
+}
 .text1 {
   width: 30%;
   border: 5px solid silver;
@@ -110,52 +118,56 @@ li a:active {
   border: 5px silver;
   padding: 5px;
   float: right;
-margin: 1px;
+  margin: auto;
+  margin-right: 15%;
   color: rgb(61, 49, 49);
 
-
 }
 
-.russia {
+.ol {
   widows: 5%;
   border: 5px silver;
   padding: 5px;
   float: left;
   position: relative;
   color: rgb(81, 81, 126);
-  ;
+
 }
 
-.canada {
+.ol {
   widows: 5%;
   border: 5px silver;
   padding: 5px;
   float: left;
   position: relative;
   color: rgb(81, 81, 126);
-  ;
-
 }
 
-.United {
+.side h3 {
+
+  margin: auto;
+ font-size: 85%;
+}
+.ol {
   widows: 5%;
   border: 5px silver;
   padding: 5px;
   float: left;
   position: relative;
   color: rgb(81, 81, 126);
-  ;
+ 
 }
 
 footer {
   margin-block-end: 10px;
   width: auto;
   height: 50px;
-  margin-top: 750px;
+  margin-top: 800px;
   background-color: silver;
   border: 2px black;
   padding: 10px;
   font-size: 1.2em;
   color: royalblue;
   text-align: center;
+  
 }
